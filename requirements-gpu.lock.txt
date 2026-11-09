@@ -1,0 +1,10 @@
+# GPU additions to requirements.lock.txt; install after the CPU lock.
+--extra-index-url https://download.pytorch.org/whl/cu128
+torch==2.11.0+cu128
+transformers==5.22.1
+tokenizers==0.23.3
+safetensors==0.8.0
+regex==2026.9.29
+sympy==1.14.0
+mpmath==1.3.0
+setuptools==78.1.0
